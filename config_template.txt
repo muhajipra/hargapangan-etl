@@ -1,0 +1,4 @@
+[config]
+CREDENTIALS_PATH = # Path to credentials json file
+SHEET_KEY = # The sheet ID
+SHEET_NAME = # The sheet name

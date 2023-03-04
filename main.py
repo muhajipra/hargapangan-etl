@@ -1,26 +1,36 @@
 import pandas as pd
+import numpy as np
 import requests
 import datetime
+from argparse import ArgumentParser, ArgumentDefaultsHelpFormatter
+
+from utils import read_json, get_regency_ids, append_dataframe, read_config
 
 roman_numbers = ['I', 'II', 'III', 'IV', 'V', 'VI', 'VII', 'VIII', 'IX', 'X']
 
-headers = {
-    'Accept': 'application/json, text/javascript, */*; q=0.01',
-    'Accept-Language': 'en-US,en;q=0.9,id;q=0.8',
-    'Connection': 'keep-alive',
-    # 'Cookie': 'WSAntiforgeryCookie=CfDJ8FqGVPgzzoRMrgs4KxARAX9mXisKKfleLVgh6-xgOjKQ3t2YZT-0ZI4V0Lhlo_jhypm9rsHwk5w0-GnpBuLQejKSZYI-HSqOMtG51A08MH_l4yaRIlKhugaG_goz7To-LwC-UKnyj-VdkGogyy8bn_s; TS01a661ae=0199782b6fa078b77469eb7f43dc9613c82cd5a3278308aa7d841697bb0a50ba99fab9716690a1c28564faeb9bfe768e7fd2c2dd7e0f35d183cbcf336d9d621d970db77f62; _ga=GA1.3.860972258.1673831241; TS0dddebd2027=08f7caa0deab2000072d091af7a222b4d3f4475ea668e37bf36ba90027a716c33a7fcd198e8765a3080cd85d3b1130004e1e9695c7cce68deacc5044914069b7c12613f9e3464c921d220d8ae470a5cf0c4b689187dad455db6a7374617d7d9d; TS01441bdb=0199782b6fb87b73afb1eb2512a7bd5382ef765615d81e1a5c0c399b11a3a9eaf2115f14a4b3e9b3afa638fa27c98a599003f56b25',
-    'Sec-Fetch-Dest': 'empty',
-    'Sec-Fetch-Mode': 'cors',
-    'Sec-Fetch-Site': 'same-origin',
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36 Edg/110.0.1587.57',
-    'X-Requested-With': 'XMLHttpRequest',
-    'XSRF-TOKEN': 'CfDJ8FqGVPgzzoRMrgs4KxARAX-SOu1tJxuTKjnm6okujQip_XGIEzJe4waCGZfvtmHJrlD7YP4eK3CcJpfiXn_eeF1-cgyIATyw3yl9a395eO7o_W3zetLvvxmKS8W53Maxutc0TLj80cArXGfUVBuMI3I',
-    'sec-ch-ua': '"Chromium";v="110", "Not A(Brand";v="24", "Microsoft Edge";v="110"',
-    'sec-ch-ua-mobile': '?0',
-    'sec-ch-ua-platform': '"Windows"',
-}
+headers = read_json('headers.json')
 
-def extract(headers, start_date=datetime.date.today() - datetime.timedelta(days=7), end_date=datetime.date.today(), province_id=16, regency_id='', regency_name=None):
+# Parse command line arguments
+parser = ArgumentParser(formatter_class=ArgumentDefaultsHelpFormatter)
+parser.add_argument("-s", "--start", default=datetime.date.today() - datetime.timedelta(days=7), help='Date with format "YYYY-MM-DD"')
+parser.add_argument("-e", "--end", default=datetime.date.today(), help='Date with format "YYYY-MM-DD"')
+parser.add_argument("-p", "--province", default=16, help='Input integer for province id')
+parser.add_argument("-r", "--regency", default='', help='Input integer value for regency id')
+args = vars(parser.parse_args())
+
+# Set up parameters
+start_date = args["start"]
+end_date = args["end"]
+province_id = args["province"]
+regency_id = args['regency']
+
+# Read configuration file
+config = read_config('config.txt')
+CREDENTIALS_PATH = config.get('config', 'CREDENTIALS_PATH')
+SHEET_KEY = config.get('config', 'SHEET_KEY')
+SHEET_NAME = config.get('config', 'SHEET_NAME')
+
+def extract(headers, start_date=start_date, end_date=end_date, province_id=province_id, regency_id='', regency_name=None):
 
     params = {
     'price_type_id': '1',
@@ -41,6 +51,9 @@ def extract(headers, start_date=datetime.date.today() - datetime.timedelta(days=
     df = df[~df.no.isin(roman_numbers)]
     df = df.drop(columns=['level', 'no'])
     df['regency_name'] = regency_name
+    df.replace('-', np.nan)
+    for column in df.columns:
+        df[column] = np.where((df[column] == '-'), np.nan, df[column])
 
     return df
 
@@ -50,6 +63,7 @@ def transform(df):
 
     # Change the data type for date and price columns
     df['date'] = pd.to_datetime(df['date'], format='%d/%m/%Y')
+    df['date'] = df['date'].astype(str)
     df['price'] =  pd.to_numeric(df['price'].str.replace(',', ''))
 
     # Add category column
@@ -65,10 +79,25 @@ def transform(df):
 
     return df
 
-def main(headers, start_date=datetime.date.today() - datetime.timedelta(days=7), end_date=datetime.date.today(), province_id=16, regency_id=''):
-    df = extract(headers=headers)
-    df = transform(df)
-    return df
-
-df = main(headers=headers)
-df.to_csv('test_df.csv', index=False)
+if __name__ == "__main__":
+    regency_list = get_regency_ids(headers=headers, province_id=province_id)
+    for i, regency in enumerate(regency_list):
+        regency_id = regency['id']
+        regency_name = regency['name']
+        df = extract(headers=headers,
+                     start_date=start_date,
+                     end_date=end_date,
+                     province_id=province_id,
+                     regency_id=regency_id,
+                     regency_name=regency_name)
+        df = transform(df)
+        append_dataframe(
+            credentials_path=CREDENTIALS_PATH,
+            sheet_key=SHEET_KEY,
+            sheet_name=SHEET_NAME,
+            data=df
+        )
+        print("Processed {} data".format(regency_name))
+    
+    
+        

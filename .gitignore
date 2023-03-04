@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.json
+config.txt
+aji-personal-project-46536c579bc0.json

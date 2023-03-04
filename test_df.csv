@@ -1,106 +1,286 @@
 name,regency_name,date,price,category
-Beras Kualitas Bawah I,,2023-02-27,10450,Beras
-Beras Kualitas Bawah I,,2023-02-28,10400,Beras
-Beras Kualitas Bawah I,,2023-03-01,10400,Beras
-Beras Kualitas Bawah I,,2023-03-02,10400,Beras
-Beras Kualitas Bawah I,,2023-03-03,10400,Beras
-Beras Kualitas Bawah II,,2023-02-27,9600,Beras
-Beras Kualitas Bawah II,,2023-02-28,9450,Beras
-Beras Kualitas Bawah II,,2023-03-01,9450,Beras
-Beras Kualitas Bawah II,,2023-03-02,9450,Beras
-Beras Kualitas Bawah II,,2023-03-03,9450,Beras
-Beras Kualitas Medium I,,2023-02-27,11900,Beras
-Beras Kualitas Medium I,,2023-02-28,11850,Beras
-Beras Kualitas Medium I,,2023-03-01,11800,Beras
-Beras Kualitas Medium I,,2023-03-02,11800,Beras
-Beras Kualitas Medium I,,2023-03-03,11800,Beras
-Beras Kualitas Medium II,,2023-02-27,10950,Beras
-Beras Kualitas Medium II,,2023-02-28,10900,Beras
-Beras Kualitas Medium II,,2023-03-01,10950,Beras
-Beras Kualitas Medium II,,2023-03-02,10950,Beras
-Beras Kualitas Medium II,,2023-03-03,10950,Beras
-Beras Kualitas Super I,,2023-02-27,12000,Beras
-Beras Kualitas Super I,,2023-02-28,11950,Beras
-Beras Kualitas Super I,,2023-03-01,11950,Beras
-Beras Kualitas Super I,,2023-03-02,11950,Beras
-Beras Kualitas Super I,,2023-03-03,11950,Beras
-Beras Kualitas Super II,,2023-02-27,11550,Beras
-Beras Kualitas Super II,,2023-02-28,11500,Beras
-Beras Kualitas Super II,,2023-03-01,11450,Beras
-Beras Kualitas Super II,,2023-03-02,11450,Beras
-Beras Kualitas Super II,,2023-03-03,11450,Beras
-Daging Ayam Ras Segar,,2023-02-27,30750,Daging Ayam
-Daging Ayam Ras Segar,,2023-02-28,30700,Daging Ayam
-Daging Ayam Ras Segar,,2023-03-01,30600,Daging Ayam
-Daging Ayam Ras Segar,,2023-03-02,30250,Daging Ayam
-Daging Ayam Ras Segar,,2023-03-03,30100,Daging Ayam
-Daging Sapi Kualitas 1,,2023-02-27,115750,Daging Sapi
-Daging Sapi Kualitas 1,,2023-02-28,115750,Daging Sapi
-Daging Sapi Kualitas 1,,2023-03-01,115750,Daging Sapi
-Daging Sapi Kualitas 1,,2023-03-02,115650,Daging Sapi
-Daging Sapi Kualitas 1,,2023-03-03,115650,Daging Sapi
-Daging Sapi Kualitas 2,,2023-02-27,108300,Daging Sapi
-Daging Sapi Kualitas 2,,2023-02-28,108300,Daging Sapi
-Daging Sapi Kualitas 2,,2023-03-01,108300,Daging Sapi
-Daging Sapi Kualitas 2,,2023-03-02,108300,Daging Sapi
-Daging Sapi Kualitas 2,,2023-03-03,108300,Daging Sapi
-Telur Ayam Ras Segar,,2023-02-27,25700,Telur Ayam
-Telur Ayam Ras Segar,,2023-02-28,25650,Telur Ayam
-Telur Ayam Ras Segar,,2023-03-01,25600,Telur Ayam
-Telur Ayam Ras Segar,,2023-03-02,25500,Telur Ayam
-Telur Ayam Ras Segar,,2023-03-03,25450,Telur Ayam
-Bawang Merah Ukuran Sedang,,2023-02-27,31500,Bawang Merah
-Bawang Merah Ukuran Sedang,,2023-02-28,31700,Bawang Merah
-Bawang Merah Ukuran Sedang,,2023-03-01,31700,Bawang Merah
-Bawang Merah Ukuran Sedang,,2023-03-02,31900,Bawang Merah
-Bawang Merah Ukuran Sedang,,2023-03-03,32300,Bawang Merah
-Bawang Putih Ukuran Sedang,,2023-02-27,26200,Bawang Putih
-Bawang Putih Ukuran Sedang,,2023-02-28,26350,Bawang Putih
-Bawang Putih Ukuran Sedang,,2023-03-01,26400,Bawang Putih
-Bawang Putih Ukuran Sedang,,2023-03-02,26400,Bawang Putih
-Bawang Putih Ukuran Sedang,,2023-03-03,26500,Bawang Putih
-Cabai Merah Besar,,2023-02-27,28600,Cabai Merah
-Cabai Merah Besar,,2023-02-28,27600,Cabai Merah
-Cabai Merah Besar,,2023-03-01,26750,Cabai Merah
-Cabai Merah Besar,,2023-03-02,26150,Cabai Merah
-Cabai Merah Besar,,2023-03-03,25950,Cabai Merah
-Cabai Merah Keriting ,,2023-02-27,29300,Cabai Merah
-Cabai Merah Keriting ,,2023-02-28,28600,Cabai Merah
-Cabai Merah Keriting ,,2023-03-01,28500,Cabai Merah
-Cabai Merah Keriting ,,2023-03-02,28150,Cabai Merah
-Cabai Merah Keriting ,,2023-03-03,28050,Cabai Merah
-Cabai Rawit Hijau,,2023-02-27,32050,Cabai Rawit
-Cabai Rawit Hijau,,2023-02-28,30900,Cabai Rawit
-Cabai Rawit Hijau,,2023-03-01,29250,Cabai Rawit
-Cabai Rawit Hijau,,2023-03-02,28450,Cabai Rawit
-Cabai Rawit Hijau,,2023-03-03,27750,Cabai Rawit
-Cabai Rawit Merah,,2023-02-27,55450,Cabai Rawit
-Cabai Rawit Merah,,2023-02-28,55100,Cabai Rawit
-Cabai Rawit Merah,,2023-03-01,55250,Cabai Rawit
-Cabai Rawit Merah,,2023-03-02,57500,Cabai Rawit
-Cabai Rawit Merah,,2023-03-03,61650,Cabai Rawit
-Minyak Goreng Curah,,2023-02-27,15800,Minyak Goreng
-Minyak Goreng Curah,,2023-02-28,15800,Minyak Goreng
-Minyak Goreng Curah,,2023-03-01,15800,Minyak Goreng
-Minyak Goreng Curah,,2023-03-02,15750,Minyak Goreng
-Minyak Goreng Curah,,2023-03-03,15750,Minyak Goreng
-Minyak Goreng Kemasan Bermerk 1,,2023-02-27,19200,Minyak Goreng
-Minyak Goreng Kemasan Bermerk 1,,2023-02-28,19200,Minyak Goreng
-Minyak Goreng Kemasan Bermerk 1,,2023-03-01,19200,Minyak Goreng
-Minyak Goreng Kemasan Bermerk 1,,2023-03-02,19200,Minyak Goreng
-Minyak Goreng Kemasan Bermerk 1,,2023-03-03,19200,Minyak Goreng
-Minyak Goreng Kemasan Bermerk 2,,2023-02-27,17650,Minyak Goreng
-Minyak Goreng Kemasan Bermerk 2,,2023-02-28,17650,Minyak Goreng
-Minyak Goreng Kemasan Bermerk 2,,2023-03-01,17650,Minyak Goreng
-Minyak Goreng Kemasan Bermerk 2,,2023-03-02,17700,Minyak Goreng
-Minyak Goreng Kemasan Bermerk 2,,2023-03-03,17700,Minyak Goreng
-Gula Pasir Kualitas Premium,,2023-02-27,13750,Gula Pasir
-Gula Pasir Kualitas Premium,,2023-02-28,13750,Gula Pasir
-Gula Pasir Kualitas Premium,,2023-03-01,13700,Gula Pasir
-Gula Pasir Kualitas Premium,,2023-03-02,13700,Gula Pasir
-Gula Pasir Kualitas Premium,,2023-03-03,13700,Gula Pasir
-Gula Pasir Lokal,,2023-02-27,13250,Gula Pasir
-Gula Pasir Lokal,,2023-02-28,13250,Gula Pasir
-Gula Pasir Lokal,,2023-03-01,13250,Gula Pasir
-Gula Pasir Lokal,,2023-03-02,13250,Gula Pasir
-Gula Pasir Lokal,,2023-03-03,13250,Gula Pasir
+Beras Kualitas Medium I,Kab. Banyuwangi,2023-02-27,11400,Beras
+Beras Kualitas Medium I,Kab. Banyuwangi,2023-02-28,11400,Beras
+Beras Kualitas Medium I,Kab. Banyuwangi,2023-03-01,10900,Beras
+Beras Kualitas Medium I,Kab. Banyuwangi,2023-03-02,10900,Beras
+Beras Kualitas Medium I,Kab. Banyuwangi,2023-03-03,10900,Beras
+Beras Kualitas Medium II,Kab. Banyuwangi,2023-02-27,10350,Beras
+Beras Kualitas Medium II,Kab. Banyuwangi,2023-02-28,10350,Beras
+Beras Kualitas Medium II,Kab. Banyuwangi,2023-03-01,10000,Beras
+Beras Kualitas Medium II,Kab. Banyuwangi,2023-03-02,10000,Beras
+Beras Kualitas Medium II,Kab. Banyuwangi,2023-03-03,10000,Beras
+Beras Kualitas Super I,Kab. Banyuwangi,2023-02-27,13000,Beras
+Beras Kualitas Super I,Kab. Banyuwangi,2023-02-28,13000,Beras
+Beras Kualitas Super I,Kab. Banyuwangi,2023-03-01,13000,Beras
+Beras Kualitas Super I,Kab. Banyuwangi,2023-03-02,13000,Beras
+Beras Kualitas Super I,Kab. Banyuwangi,2023-03-03,13000,Beras
+Beras Kualitas Super II,Kab. Banyuwangi,2023-02-27,12500,Beras
+Beras Kualitas Super II,Kab. Banyuwangi,2023-02-28,12500,Beras
+Beras Kualitas Super II,Kab. Banyuwangi,2023-03-01,12250,Beras
+Beras Kualitas Super II,Kab. Banyuwangi,2023-03-02,12250,Beras
+Beras Kualitas Super II,Kab. Banyuwangi,2023-03-03,12250,Beras
+Daging Ayam Ras Segar,Kab. Banyuwangi,2023-02-27,28500,Daging Ayam
+Daging Ayam Ras Segar,Kab. Banyuwangi,2023-02-28,28500,Daging Ayam
+Daging Ayam Ras Segar,Kab. Banyuwangi,2023-03-01,29000,Daging Ayam
+Daging Ayam Ras Segar,Kab. Banyuwangi,2023-03-02,28250,Daging Ayam
+Daging Ayam Ras Segar,Kab. Banyuwangi,2023-03-03,28250,Daging Ayam
+Daging Sapi Kualitas 1,Kab. Banyuwangi,2023-02-27,122500,Daging Sapi
+Daging Sapi Kualitas 1,Kab. Banyuwangi,2023-02-28,122500,Daging Sapi
+Daging Sapi Kualitas 1,Kab. Banyuwangi,2023-03-01,122500,Daging Sapi
+Daging Sapi Kualitas 1,Kab. Banyuwangi,2023-03-02,122500,Daging Sapi
+Daging Sapi Kualitas 1,Kab. Banyuwangi,2023-03-03,122500,Daging Sapi
+Daging Sapi Kualitas 2,Kab. Banyuwangi,2023-02-27,117500,Daging Sapi
+Daging Sapi Kualitas 2,Kab. Banyuwangi,2023-02-28,117500,Daging Sapi
+Daging Sapi Kualitas 2,Kab. Banyuwangi,2023-03-01,117500,Daging Sapi
+Daging Sapi Kualitas 2,Kab. Banyuwangi,2023-03-02,117500,Daging Sapi
+Daging Sapi Kualitas 2,Kab. Banyuwangi,2023-03-03,117500,Daging Sapi
+Telur Ayam Ras Segar,Kab. Banyuwangi,2023-02-27,25150,Telur Ayam
+Telur Ayam Ras Segar,Kab. Banyuwangi,2023-02-28,25150,Telur Ayam
+Telur Ayam Ras Segar,Kab. Banyuwangi,2023-03-01,25150,Telur Ayam
+Telur Ayam Ras Segar,Kab. Banyuwangi,2023-03-02,25150,Telur Ayam
+Telur Ayam Ras Segar,Kab. Banyuwangi,2023-03-03,25150,Telur Ayam
+Bawang Merah Ukuran Sedang,Kab. Banyuwangi,2023-02-27,32750,Bawang Merah
+Bawang Merah Ukuran Sedang,Kab. Banyuwangi,2023-02-28,32750,Bawang Merah
+Bawang Merah Ukuran Sedang,Kab. Banyuwangi,2023-03-01,32000,Bawang Merah
+Bawang Merah Ukuran Sedang,Kab. Banyuwangi,2023-03-02,32000,Bawang Merah
+Bawang Merah Ukuran Sedang,Kab. Banyuwangi,2023-03-03,32000,Bawang Merah
+Bawang Putih Ukuran Sedang,Kab. Banyuwangi,2023-02-27,26500,Bawang Putih
+Bawang Putih Ukuran Sedang,Kab. Banyuwangi,2023-02-28,26500,Bawang Putih
+Bawang Putih Ukuran Sedang,Kab. Banyuwangi,2023-03-01,26500,Bawang Putih
+Bawang Putih Ukuran Sedang,Kab. Banyuwangi,2023-03-02,26500,Bawang Putih
+Bawang Putih Ukuran Sedang,Kab. Banyuwangi,2023-03-03,26500,Bawang Putih
+Cabai Merah Besar,Kab. Banyuwangi,2023-02-27,31000,Cabai Merah
+Cabai Merah Besar,Kab. Banyuwangi,2023-02-28,27750,Cabai Merah
+Cabai Merah Besar,Kab. Banyuwangi,2023-03-01,25750,Cabai Merah
+Cabai Merah Besar,Kab. Banyuwangi,2023-03-02,24000,Cabai Merah
+Cabai Merah Besar,Kab. Banyuwangi,2023-03-03,24000,Cabai Merah
+Cabai Rawit Hijau,Kab. Banyuwangi,2023-02-27,37250,Cabai Rawit
+Cabai Rawit Hijau,Kab. Banyuwangi,2023-02-28,37000,Cabai Rawit
+Cabai Rawit Hijau,Kab. Banyuwangi,2023-03-01,32250,Cabai Rawit
+Cabai Rawit Hijau,Kab. Banyuwangi,2023-03-02,29500,Cabai Rawit
+Cabai Rawit Hijau,Kab. Banyuwangi,2023-03-03,29500,Cabai Rawit
+Cabai Rawit Merah,Kab. Banyuwangi,2023-02-27,57750,Cabai Rawit
+Cabai Rawit Merah,Kab. Banyuwangi,2023-02-28,56000,Cabai Rawit
+Cabai Rawit Merah,Kab. Banyuwangi,2023-03-01,57500,Cabai Rawit
+Cabai Rawit Merah,Kab. Banyuwangi,2023-03-02,56250,Cabai Rawit
+Cabai Rawit Merah,Kab. Banyuwangi,2023-03-03,55750,Cabai Rawit
+Minyak Goreng Curah,Kab. Banyuwangi,2023-02-27,15250,Minyak Goreng
+Minyak Goreng Curah,Kab. Banyuwangi,2023-02-28,15250,Minyak Goreng
+Minyak Goreng Curah,Kab. Banyuwangi,2023-03-01,15400,Minyak Goreng
+Minyak Goreng Curah,Kab. Banyuwangi,2023-03-02,15400,Minyak Goreng
+Minyak Goreng Curah,Kab. Banyuwangi,2023-03-03,15400,Minyak Goreng
+Minyak Goreng Kemasan Bermerk 1,Kab. Banyuwangi,2023-02-27,21000,Minyak Goreng
+Minyak Goreng Kemasan Bermerk 1,Kab. Banyuwangi,2023-02-28,21000,Minyak Goreng
+Minyak Goreng Kemasan Bermerk 1,Kab. Banyuwangi,2023-03-01,21000,Minyak Goreng
+Minyak Goreng Kemasan Bermerk 1,Kab. Banyuwangi,2023-03-02,21000,Minyak Goreng
+Minyak Goreng Kemasan Bermerk 1,Kab. Banyuwangi,2023-03-03,21000,Minyak Goreng
+Minyak Goreng Kemasan Bermerk 2,Kab. Banyuwangi,2023-02-27,18250,Minyak Goreng
+Minyak Goreng Kemasan Bermerk 2,Kab. Banyuwangi,2023-02-28,18250,Minyak Goreng
+Minyak Goreng Kemasan Bermerk 2,Kab. Banyuwangi,2023-03-01,18250,Minyak Goreng
+Minyak Goreng Kemasan Bermerk 2,Kab. Banyuwangi,2023-03-02,18250,Minyak Goreng
+Minyak Goreng Kemasan Bermerk 2,Kab. Banyuwangi,2023-03-03,18250,Minyak Goreng
+Gula Pasir Kualitas Premium,Kab. Banyuwangi,2023-02-27,15000,Gula Pasir
+Gula Pasir Kualitas Premium,Kab. Banyuwangi,2023-02-28,15000,Gula Pasir
+Gula Pasir Kualitas Premium,Kab. Banyuwangi,2023-03-01,15000,Gula Pasir
+Gula Pasir Kualitas Premium,Kab. Banyuwangi,2023-03-02,15000,Gula Pasir
+Gula Pasir Kualitas Premium,Kab. Banyuwangi,2023-03-03,15000,Gula Pasir
+Gula Pasir Lokal,Kab. Banyuwangi,2023-02-27,13000,Gula Pasir
+Gula Pasir Lokal,Kab. Banyuwangi,2023-02-28,13000,Gula Pasir
+Gula Pasir Lokal,Kab. Banyuwangi,2023-03-01,13000,Gula Pasir
+Gula Pasir Lokal,Kab. Banyuwangi,2023-03-02,13000,Gula Pasir
+Gula Pasir Lokal,Kab. Banyuwangi,2023-03-03,13000,Gula Pasir
+Beras Kualitas Bawah I,Kota Blitar,2023-02-27,3150,Beras
+Beras Kualitas Bawah I,Kota Blitar,2023-02-28,3150,Beras
+Beras Kualitas Bawah I,Kota Blitar,2023-03-01,3150,Beras
+Beras Kualitas Bawah I,Kota Blitar,2023-03-02,3150,Beras
+Beras Kualitas Bawah I,Kota Blitar,2023-03-03,3150,Beras
+Beras Kualitas Bawah II,Kota Blitar,2023-02-27,0,Beras
+Beras Kualitas Bawah II,Kota Blitar,2023-02-28,0,Beras
+Beras Kualitas Bawah II,Kota Blitar,2023-03-01,0,Beras
+Beras Kualitas Bawah II,Kota Blitar,2023-03-02,0,Beras
+Beras Kualitas Bawah II,Kota Blitar,2023-03-03,0,Beras
+Beras Kualitas Medium I,Kota Blitar,2023-02-27,10750,Beras
+Beras Kualitas Medium I,Kota Blitar,2023-02-28,10750,Beras
+Beras Kualitas Medium I,Kota Blitar,2023-03-01,10750,Beras
+Beras Kualitas Medium I,Kota Blitar,2023-03-02,10750,Beras
+Beras Kualitas Medium I,Kota Blitar,2023-03-03,10750,Beras
+Beras Kualitas Medium II,Kota Blitar,2023-02-27,5200,Beras
+Beras Kualitas Medium II,Kota Blitar,2023-02-28,5200,Beras
+Beras Kualitas Medium II,Kota Blitar,2023-03-01,5200,Beras
+Beras Kualitas Medium II,Kota Blitar,2023-03-02,5200,Beras
+Beras Kualitas Medium II,Kota Blitar,2023-03-03,5200,Beras
+Beras Kualitas Super I,Kota Blitar,2023-02-27,9350,Beras
+Beras Kualitas Super I,Kota Blitar,2023-02-28,9350,Beras
+Beras Kualitas Super I,Kota Blitar,2023-03-01,9350,Beras
+Beras Kualitas Super I,Kota Blitar,2023-03-02,9350,Beras
+Beras Kualitas Super I,Kota Blitar,2023-03-03,9350,Beras
+Beras Kualitas Super II,Kota Blitar,2023-02-27,8750,Beras
+Beras Kualitas Super II,Kota Blitar,2023-02-28,8750,Beras
+Beras Kualitas Super II,Kota Blitar,2023-03-01,8750,Beras
+Beras Kualitas Super II,Kota Blitar,2023-03-02,8750,Beras
+Beras Kualitas Super II,Kota Blitar,2023-03-03,8750,Beras
+Daging Ayam Ras Segar,Kota Blitar,2023-02-27,31000,Daging Ayam
+Daging Ayam Ras Segar,Kota Blitar,2023-02-28,31000,Daging Ayam
+Daging Ayam Ras Segar,Kota Blitar,2023-03-01,30500,Daging Ayam
+Daging Ayam Ras Segar,Kota Blitar,2023-03-02,30500,Daging Ayam
+Daging Ayam Ras Segar,Kota Blitar,2023-03-03,30000,Daging Ayam
+Daging Sapi Kualitas 1,Kota Blitar,2023-02-27,91250,Daging Sapi
+Daging Sapi Kualitas 1,Kota Blitar,2023-02-28,91250,Daging Sapi
+Daging Sapi Kualitas 1,Kota Blitar,2023-03-01,91250,Daging Sapi
+Daging Sapi Kualitas 1,Kota Blitar,2023-03-02,91250,Daging Sapi
+Daging Sapi Kualitas 1,Kota Blitar,2023-03-03,91250,Daging Sapi
+Daging Sapi Kualitas 2,Kota Blitar,2023-02-27,113750,Daging Sapi
+Daging Sapi Kualitas 2,Kota Blitar,2023-02-28,113750,Daging Sapi
+Daging Sapi Kualitas 2,Kota Blitar,2023-03-01,113750,Daging Sapi
+Daging Sapi Kualitas 2,Kota Blitar,2023-03-02,113750,Daging Sapi
+Daging Sapi Kualitas 2,Kota Blitar,2023-03-03,113750,Daging Sapi
+Telur Ayam Ras Segar,Kota Blitar,2023-02-27,26750,Telur Ayam
+Telur Ayam Ras Segar,Kota Blitar,2023-02-28,26750,Telur Ayam
+Telur Ayam Ras Segar,Kota Blitar,2023-03-01,27000,Telur Ayam
+Telur Ayam Ras Segar,Kota Blitar,2023-03-02,26500,Telur Ayam
+Telur Ayam Ras Segar,Kota Blitar,2023-03-03,26250,Telur Ayam
+Bawang Merah Ukuran Sedang,Kota Blitar,2023-02-27,22600,Bawang Merah
+Bawang Merah Ukuran Sedang,Kota Blitar,2023-02-28,22600,Bawang Merah
+Bawang Merah Ukuran Sedang,Kota Blitar,2023-03-01,22600,Bawang Merah
+Bawang Merah Ukuran Sedang,Kota Blitar,2023-03-02,22600,Bawang Merah
+Bawang Merah Ukuran Sedang,Kota Blitar,2023-03-03,23000,Bawang Merah
+Bawang Putih Ukuran Sedang,Kota Blitar,2023-02-27,21000,Bawang Putih
+Bawang Putih Ukuran Sedang,Kota Blitar,2023-02-28,21000,Bawang Putih
+Bawang Putih Ukuran Sedang,Kota Blitar,2023-03-01,21000,Bawang Putih
+Bawang Putih Ukuran Sedang,Kota Blitar,2023-03-02,21000,Bawang Putih
+Bawang Putih Ukuran Sedang,Kota Blitar,2023-03-03,21400,Bawang Putih
+Cabai Merah Besar,Kota Blitar,2023-02-27,23600,Cabai Merah
+Cabai Merah Besar,Kota Blitar,2023-02-28,23600,Cabai Merah
+Cabai Merah Besar,Kota Blitar,2023-03-01,23200,Cabai Merah
+Cabai Merah Besar,Kota Blitar,2023-03-02,23200,Cabai Merah
+Cabai Merah Besar,Kota Blitar,2023-03-03,22400,Cabai Merah
+Cabai Merah Keriting ,Kota Blitar,2023-02-27,24200,Cabai Merah
+Cabai Merah Keriting ,Kota Blitar,2023-02-28,24200,Cabai Merah
+Cabai Merah Keriting ,Kota Blitar,2023-03-01,24200,Cabai Merah
+Cabai Merah Keriting ,Kota Blitar,2023-03-02,24000,Cabai Merah
+Cabai Merah Keriting ,Kota Blitar,2023-03-03,23400,Cabai Merah
+Cabai Rawit Hijau,Kota Blitar,2023-02-27,11000,Cabai Rawit
+Cabai Rawit Hijau,Kota Blitar,2023-02-28,11000,Cabai Rawit
+Cabai Rawit Hijau,Kota Blitar,2023-03-01,11000,Cabai Rawit
+Cabai Rawit Hijau,Kota Blitar,2023-03-02,11600,Cabai Rawit
+Cabai Rawit Hijau,Kota Blitar,2023-03-03,11600,Cabai Rawit
+Cabai Rawit Merah,Kota Blitar,2023-02-27,43000,Cabai Rawit
+Cabai Rawit Merah,Kota Blitar,2023-02-28,43000,Cabai Rawit
+Cabai Rawit Merah,Kota Blitar,2023-03-01,43000,Cabai Rawit
+Cabai Rawit Merah,Kota Blitar,2023-03-02,44800,Cabai Rawit
+Cabai Rawit Merah,Kota Blitar,2023-03-03,46000,Cabai Rawit
+Minyak Goreng Curah,Kota Blitar,2023-02-27,15450,Minyak Goreng
+Minyak Goreng Curah,Kota Blitar,2023-02-28,15550,Minyak Goreng
+Minyak Goreng Curah,Kota Blitar,2023-03-01,15550,Minyak Goreng
+Minyak Goreng Curah,Kota Blitar,2023-03-02,15550,Minyak Goreng
+Minyak Goreng Curah,Kota Blitar,2023-03-03,15950,Minyak Goreng
+Minyak Goreng Kemasan Bermerk 1,Kota Blitar,2023-02-27,17600,Minyak Goreng
+Minyak Goreng Kemasan Bermerk 1,Kota Blitar,2023-02-28,17600,Minyak Goreng
+Minyak Goreng Kemasan Bermerk 1,Kota Blitar,2023-03-01,17600,Minyak Goreng
+Minyak Goreng Kemasan Bermerk 1,Kota Blitar,2023-03-02,17600,Minyak Goreng
+Minyak Goreng Kemasan Bermerk 1,Kota Blitar,2023-03-03,17600,Minyak Goreng
+Minyak Goreng Kemasan Bermerk 2,Kota Blitar,2023-02-27,12500,Minyak Goreng
+Minyak Goreng Kemasan Bermerk 2,Kota Blitar,2023-02-28,12500,Minyak Goreng
+Minyak Goreng Kemasan Bermerk 2,Kota Blitar,2023-03-01,12500,Minyak Goreng
+Minyak Goreng Kemasan Bermerk 2,Kota Blitar,2023-03-02,12500,Minyak Goreng
+Minyak Goreng Kemasan Bermerk 2,Kota Blitar,2023-03-03,12500,Minyak Goreng
+Gula Pasir Kualitas Premium,Kota Blitar,2023-02-27,15000,Gula Pasir
+Gula Pasir Kualitas Premium,Kota Blitar,2023-02-28,15000,Gula Pasir
+Gula Pasir Kualitas Premium,Kota Blitar,2023-03-01,15000,Gula Pasir
+Gula Pasir Kualitas Premium,Kota Blitar,2023-03-02,15000,Gula Pasir
+Gula Pasir Kualitas Premium,Kota Blitar,2023-03-03,15000,Gula Pasir
+Gula Pasir Lokal,Kota Blitar,2023-02-27,13900,Gula Pasir
+Gula Pasir Lokal,Kota Blitar,2023-02-28,13900,Gula Pasir
+Gula Pasir Lokal,Kota Blitar,2023-03-01,13900,Gula Pasir
+Gula Pasir Lokal,Kota Blitar,2023-03-02,13900,Gula Pasir
+Gula Pasir Lokal,Kota Blitar,2023-03-03,13900,Gula Pasir
+Beras Kualitas Bawah I,Kab. Jember,2023-02-27,10750,Beras
+Beras Kualitas Bawah I,Kab. Jember,2023-02-28,10750,Beras
+Beras Kualitas Bawah I,Kab. Jember,2023-03-01,10750,Beras
+Beras Kualitas Bawah I,Kab. Jember,2023-03-02,10750,Beras
+Beras Kualitas Bawah I,Kab. Jember,2023-03-03,10750,Beras
+Beras Kualitas Medium I,Kab. Jember,2023-02-27,12500,Beras
+Beras Kualitas Medium I,Kab. Jember,2023-02-28,12500,Beras
+Beras Kualitas Medium I,Kab. Jember,2023-03-01,12500,Beras
+Beras Kualitas Medium I,Kab. Jember,2023-03-02,12500,Beras
+Beras Kualitas Medium I,Kab. Jember,2023-03-03,12500,Beras
+Beras Kualitas Super I,Kab. Jember,2023-02-27,13500,Beras
+Beras Kualitas Super I,Kab. Jember,2023-02-28,13500,Beras
+Beras Kualitas Super I,Kab. Jember,2023-03-01,13500,Beras
+Beras Kualitas Super I,Kab. Jember,2023-03-02,13500,Beras
+Beras Kualitas Super I,Kab. Jember,2023-03-03,13500,Beras
+Daging Ayam Ras Segar,Kab. Jember,2023-02-27,28500,Daging Ayam
+Daging Ayam Ras Segar,Kab. Jember,2023-02-28,28650,Daging Ayam
+Daging Ayam Ras Segar,Kab. Jember,2023-03-01,28650,Daging Ayam
+Daging Ayam Ras Segar,Kab. Jember,2023-03-02,28000,Daging Ayam
+Daging Ayam Ras Segar,Kab. Jember,2023-03-03,27650,Daging Ayam
+Daging Sapi Kualitas 1,Kab. Jember,2023-02-27,123350,Daging Sapi
+Daging Sapi Kualitas 1,Kab. Jember,2023-02-28,123350,Daging Sapi
+Daging Sapi Kualitas 1,Kab. Jember,2023-03-01,123350,Daging Sapi
+Daging Sapi Kualitas 1,Kab. Jember,2023-03-02,123350,Daging Sapi
+Daging Sapi Kualitas 1,Kab. Jember,2023-03-03,123350,Daging Sapi
+Daging Sapi Kualitas 2,Kab. Jember,2023-02-27,113350,Daging Sapi
+Daging Sapi Kualitas 2,Kab. Jember,2023-02-28,113350,Daging Sapi
+Daging Sapi Kualitas 2,Kab. Jember,2023-03-01,113350,Daging Sapi
+Daging Sapi Kualitas 2,Kab. Jember,2023-03-02,113350,Daging Sapi
+Daging Sapi Kualitas 2,Kab. Jember,2023-03-03,113350,Daging Sapi
+Telur Ayam Ras Segar,Kab. Jember,2023-02-27,24900,Telur Ayam
+Telur Ayam Ras Segar,Kab. Jember,2023-02-28,24900,Telur Ayam
+Telur Ayam Ras Segar,Kab. Jember,2023-03-01,24850,Telur Ayam
+Telur Ayam Ras Segar,Kab. Jember,2023-03-02,24750,Telur Ayam
+Telur Ayam Ras Segar,Kab. Jember,2023-03-03,24750,Telur Ayam
+Bawang Merah Ukuran Sedang,Kab. Jember,2023-02-27,31650,Bawang Merah
+Bawang Merah Ukuran Sedang,Kab. Jember,2023-02-28,31650,Bawang Merah
+Bawang Merah Ukuran Sedang,Kab. Jember,2023-03-01,32000,Bawang Merah
+Bawang Merah Ukuran Sedang,Kab. Jember,2023-03-02,32000,Bawang Merah
+Bawang Merah Ukuran Sedang,Kab. Jember,2023-03-03,32000,Bawang Merah
+Bawang Putih Ukuran Sedang,Kab. Jember,2023-02-27,26150,Bawang Putih
+Bawang Putih Ukuran Sedang,Kab. Jember,2023-02-28,26000,Bawang Putih
+Bawang Putih Ukuran Sedang,Kab. Jember,2023-03-01,25850,Bawang Putih
+Bawang Putih Ukuran Sedang,Kab. Jember,2023-03-02,25850,Bawang Putih
+Bawang Putih Ukuran Sedang,Kab. Jember,2023-03-03,25850,Bawang Putih
+Cabai Merah Besar,Kab. Jember,2023-02-27,29650,Cabai Merah
+Cabai Merah Besar,Kab. Jember,2023-02-28,27650,Cabai Merah
+Cabai Merah Besar,Kab. Jember,2023-03-01,26500,Cabai Merah
+Cabai Merah Besar,Kab. Jember,2023-03-02,26500,Cabai Merah
+Cabai Merah Besar,Kab. Jember,2023-03-03,26150,Cabai Merah
+Cabai Merah Keriting ,Kab. Jember,2023-02-27,35000,Cabai Merah
+Cabai Merah Keriting ,Kab. Jember,2023-02-28,35000,Cabai Merah
+Cabai Merah Keriting ,Kab. Jember,2023-03-01,35000,Cabai Merah
+Cabai Merah Keriting ,Kab. Jember,2023-03-02,35000,Cabai Merah
+Cabai Merah Keriting ,Kab. Jember,2023-03-03,35000,Cabai Merah
+Cabai Rawit Hijau,Kab. Jember,2023-02-27,34250,Cabai Rawit
+Cabai Rawit Hijau,Kab. Jember,2023-02-28,34250,Cabai Rawit
+Cabai Rawit Hijau,Kab. Jember,2023-03-01,26750,Cabai Rawit
+Cabai Rawit Hijau,Kab. Jember,2023-03-02,23750,Cabai Rawit
+Cabai Rawit Hijau,Kab. Jember,2023-03-03,23250,Cabai Rawit
+Cabai Rawit Merah,Kab. Jember,2023-02-27,57500,Cabai Rawit
+Cabai Rawit Merah,Kab. Jember,2023-02-28,55000,Cabai Rawit
+Cabai Rawit Merah,Kab. Jember,2023-03-01,55000,Cabai Rawit
+Cabai Rawit Merah,Kab. Jember,2023-03-02,55500,Cabai Rawit
+Cabai Rawit Merah,Kab. Jember,2023-03-03,55500,Cabai Rawit
+Minyak Goreng Curah,Kab. Jember,2023-02-27,15500,Minyak Goreng
+Minyak Goreng Curah,Kab. Jember,2023-02-28,15500,Minyak Goreng
+Minyak Goreng Curah,Kab. Jember,2023-03-01,15500,Minyak Goreng
+Minyak Goreng Curah,Kab. Jember,2023-03-02,15500,Minyak Goreng
+Minyak Goreng Curah,Kab. Jember,2023-03-03,15500,Minyak Goreng
+Minyak Goreng Kemasan Bermerk 1,Kab. Jember,2023-02-27,20500,Minyak Goreng
+Minyak Goreng Kemasan Bermerk 1,Kab. Jember,2023-02-28,20500,Minyak Goreng
+Minyak Goreng Kemasan Bermerk 1,Kab. Jember,2023-03-01,20500,Minyak Goreng
+Minyak Goreng Kemasan Bermerk 1,Kab. Jember,2023-03-02,20500,Minyak Goreng
+Minyak Goreng Kemasan Bermerk 1,Kab. Jember,2023-03-03,20500,Minyak Goreng
+Minyak Goreng Kemasan Bermerk 2,Kab. Jember,2023-02-27,17500,Minyak Goreng
+Minyak Goreng Kemasan Bermerk 2,Kab. Jember,2023-02-28,17500,Minyak Goreng
+Minyak Goreng Kemasan Bermerk 2,Kab. Jember,2023-03-01,17500,Minyak Goreng
+Minyak Goreng Kemasan Bermerk 2,Kab. Jember,2023-03-02,17500,Minyak Goreng
+Minyak Goreng Kemasan Bermerk 2,Kab. Jember,2023-03-03,17500,Minyak Goreng
+Gula Pasir Kualitas Premium,Kab. Jember,2023-02-27,14000,Gula Pasir
+Gula Pasir Kualitas Premium,Kab. Jember,2023-02-28,14000,Gula Pasir
+Gula Pasir Kualitas Premium,Kab. Jember,2023-03-01,14000,Gula Pasir
+Gula Pasir Kualitas Premium,Kab. Jember,2023-03-02,14000,Gula Pasir
+Gula Pasir Kualitas Premium,Kab. Jember,2023-03-03,14000,Gula Pasir
+Gula Pasir Lokal,Kab. Jember,2023-02-27,13100,Gula Pasir
+Gula Pasir Lokal,Kab. Jember,2023-02-28,13100,Gula Pasir
+Gula Pasir Lokal,Kab. Jember,2023-03-01,13100,Gula Pasir
+Gula Pasir Lokal,Kab. Jember,2023-03-02,13100,Gula Pasir
+Gula Pasir Lokal,Kab. Jember,2023-03-03,13100,Gula Pasir
